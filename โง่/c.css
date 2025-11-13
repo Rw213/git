@@ -1,0 +1,98 @@
+body {
+    background-color: #1b0a18;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+    text-align: center;
+    width: 450px;
+    height: 390px;
+    background-color: rgba(30, 3, 32, 0.1);
+    margin: auto;
+    margin-top: 160px;
+    outline: 5px solid #380338;
+    outline-color: #140114;
+    border-radius: 35px;
+    transition: all 0.5s ease;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(36, 12, 68, 0.5);
+    outline-color: #0f061b;
+}
+
+
+
+
+.text1 {
+    color: #6e48a0;
+    font-size: 40px;
+    line-height: 60px;
+    font-family: Arial, sans-serif;
+    margin-top: auto;
+    text-shadow: #420e86 2px 2px 5px;
+    transition: all 0.5s ease;
+
+}
+
+.text1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+
+.email {
+    color: #6e48a0;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Arial, sans-serif;
+    margin-top: -20px;
+    text-shadow: #420e86 1px 1px 3px;
+    transition: all 0.5s ease;
+}
+
+.email:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+
+}
+
+.img1 {
+
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    background-origin: padding-box;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.img1:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 05px 10px rgba(80, 24, 155, 0.5);
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+
+}
+
+.logo:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+    background-color: #2e0227;
+
+}
